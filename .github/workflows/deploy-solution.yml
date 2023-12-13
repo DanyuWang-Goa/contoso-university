@@ -22,5 +22,5 @@ jobs:
           environment-url: https://org6a4303aa.crm3.dynamics.com/
           app-id: ${{ secrets.APPLICATIONID }}
           client-secret: ${{ secrets.CLIENTSECRET }}
-          tenant_id: ${{ secrets.TENANT }}
+          tenant-id: ${{ secrets.TENANT }}
           solution-file: DWUnmanagedSolutiondNEW.zip
