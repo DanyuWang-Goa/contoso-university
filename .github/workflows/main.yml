@@ -1,4 +1,4 @@
-name: Pack DWUnmanagedSolution
+name: Pack DWUnmanagedSolution_new
 
 on: 
   push: 
