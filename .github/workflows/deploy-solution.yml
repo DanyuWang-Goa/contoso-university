@@ -20,6 +20,7 @@ jobs:
       - uses: microsoft/powerplatform-actions/import-solution@v0
         with:
           environment-url: https://org6a4303aa.crm3.dynamics.com/
-          user-name: ${{ secrets.USERNAME }}
-          password-secret: ${{ secrets.PASSWORD }}
+          app-id: ${{ secrets.APPLICATIONID }}
+          client-secret: ${{ secrets.CLIENTSECRET }}
+          tenant_id: ${{ secrets.TENANT }}
           solution-file: DWUnmanagedSolutiondNEW.zip
