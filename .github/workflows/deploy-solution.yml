@@ -11,7 +11,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: Contoso-University-Prod
+    environment: production
     steps:
       - uses: dawidd6/action-download-artifact@v2
         with:
@@ -22,4 +22,4 @@ jobs:
           environment-url: https://org6a4303aa.crm3.dynamics.com/
           user-name: ${{ secrets.USERNAME }}
           password-secret: ${{ secrets.PASSWORD }}
-          solution-file: DWUnmanagedSolutiond.zip
+          solution-file: DWUnmanagedSolutiondNEW.zip
