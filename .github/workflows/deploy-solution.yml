@@ -23,4 +23,4 @@ jobs:
           app-id: ${{ secrets.APPLICATIONID }}
           client-secret: ${{ secrets.CLIENTSECRET }}
           tenant-id: ${{ secrets.TENANT }}
-          solution-file: out\DWUnmanagedSolution_managed.zip
+          solution-file: DWUnmanagedSolution_managed.zip
