@@ -23,4 +23,4 @@ jobs:
           app-id: ${{ secrets.APPLICATIONID }}
           client-secret: ${{ secrets.CLIENTSECRET }}
           tenant-id: ${{ secrets.TENANT }}
-          solution-file: CONSO_DEMO.zip
+          solution-file: CONSO_DEMO_managed.zip
